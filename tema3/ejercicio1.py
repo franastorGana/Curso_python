@@ -23,5 +23,5 @@ gasto2 = Decimal("400.20")
 # Gasto 3
 gasto3 = Decimal("100.10")
 # Calcular el balance de ingresos y gastos
-balance = ingresos_totales - gasto1 - gasto2 - gasto3
+balance = round(ingresos_totales - gasto1 - gasto2 - gasto3,1)
 print(balance)
