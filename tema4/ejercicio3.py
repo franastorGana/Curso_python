@@ -9,7 +9,7 @@ Mostrar con un print la edad calculada
 
 import datetime
 # Obtener el año de nacimiento del usuario
-anio_nacimiento = int(input("Ingrese tu año de nacimiento: "))
+anio_nacimiento = int(input("Ingresa tu año de nacimiento: "))
 anio_actual = datetime.datetime.now().year
 edad = anio_actual - anio_nacimiento
 
