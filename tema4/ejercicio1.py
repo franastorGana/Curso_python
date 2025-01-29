@@ -10,7 +10,7 @@ La primera letra del texto esté en mayúsculas.
 texto = '       el año 2022    está teniendo un     gran conflicto    internacional  '
 
 textoSinEspacios = texto.strip()
-textoEspacioSimple = textoSinEspacios.replace(' ', ' ')
+textoEspacioSimple = textoSinEspacios.replace("  ", " ")
 textoPrimerMayuscula = textoEspacioSimple.capitalize()
 print(textoSinEspacios)
 print(textoPrimerMayuscula)
