@@ -6,6 +6,6 @@ Imprimir por pantalla el número de veces que se ha hecho el reemplazo
 '''
 import re
 frase = 'el movil de ella fue encontrado en el parque'
-resultado = re.sub('parque', 'cine', frase)
+resultado = re.sub(r'\bparque\b', 'cine', frase)
 print(resultado)
 print(resultado.count('cine'))
