@@ -1,7 +1,7 @@
 '''
 Dada la siguiente lista de números enteros:
 
-
+s
 lista_origen = [1,45,4,78,23,2,0,67]
 
 Obtener una nueva lista con dos elementos, donde: 
@@ -15,7 +15,7 @@ for numero in lista_origen:
   if numero % 2 == 0 : 
     lista_pares.append(numero)
   else : 
-    lista_impares.apped(numero)
+    lista_impares.append(numero)
 
 print(lista_pares)
 print(lista_impares)
