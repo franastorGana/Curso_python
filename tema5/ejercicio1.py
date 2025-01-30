@@ -11,15 +11,15 @@ def my_funcion_1():
 ……….
 ……….
 
-my_funcion_1()
+my_funcion_1() 
 print(a)
 
 '''
 a = 20
 
 def my_funcion_1():
-global a
-a = 25
+ global a
+ a = 25
 
 my_funcion_1()
 print(a)
