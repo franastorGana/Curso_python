@@ -20,6 +20,5 @@ a = 20
 def my_funcion_1():
  global a
  a = 25
-
 my_funcion_1()
 print(a)
